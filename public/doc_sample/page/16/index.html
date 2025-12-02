@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>My New Hugo Site</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="">
+    <meta name="generator" content="Hugo 0.152.2">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+    
+      <link href="/doc_sample/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+      <link href="/doc_sample/index.xml" rel="feed" type="application/rss+xml" title="My New Hugo Site" />
+      
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/doc_sample/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/doc_sample/">
+  <meta property="og:site_name" content="My New Hugo Site">
+  <meta property="og:title" content="Doc_samples">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
+
+  <meta itemprop="name" content="Doc_samples">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Doc_samples">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+
+  <header>
+    <div class="pb3-m pb6-l bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        My New Hugo Site
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv3 ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
+          Doc_samples
+        </h1>
+        
+      </div>
+    </div>
+  </header>
+
+
+    <main class="pb7" role="main">
+      
+  <article class="pa3 pa4-ns nested-copy-line-height">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy nested-links mid-gray"></section>
+    <section class="flex-ns mt5 flex-wrap justify-around">
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Doc_samples</span>
+    <h1 class="f3 near-black">
+      <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/uniform-alpha/" class="link black dim">
+        
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h1 id="play-uniform---setup">Play: Uniform - setup</h1>
+<ul>
+<li>
+<p>hosts: all
+become: true
+vars:
+app_name: &ldquo;uniform_app&rdquo;
+retry_count: 3</p>
+<p>tasks:</p>
+<ul>
+<li>
+<p>name: Ensure hotel-task-1 is present
+ansible.builtin.file:
+path: /opt/uniform/hotel-task-1
+state: directory</p>
+</li>
+<li>
+<p>name: Template hotel-task-1 config
+ansible.builtin.template:
+src: templates/hotel-task-1.j2
+dest: /etc/uniform/hotel-task-1.conf
+mode: &lsquo;0644&rsquo;</p>
+</li>
+</ul>
+<h1 id="description">Description:</h1>
+<h1 id="excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi">Excepteur sint occaecat cupidatat non proident, sunt in culpa. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</h1>
+<ul>
+<li>
+<p>name: Ensure mango-task-2 is present
+ansible.builtin.file:
+path: /opt/uniform/mango-task-2
+state: directory</p>
+</li>
+<li>
+<p>name: Template mango-task-2 config
+ansible.builtin.template:
+src: templates/mango-task-2.j2
+dest: /etc/uniform/mango-task-2.conf
+mode: &lsquo;0644&rsquo;</p>
+    </div>
+    <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/uniform-alpha/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Doc_samples</span>
+    <h1 class="f3 near-black">
+      <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/uniform/" class="link black dim">
+        
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h1 id="play-uniform---setup">Play: Uniform - setup</h1>
+<ul>
+<li>
+<p>hosts: all
+become: true
+vars:
+app_name: &ldquo;uniform_app&rdquo;
+retry_count: 4</p>
+<p>tasks:</p>
+<ul>
+<li>
+<p>name: Ensure oscar-task-1 is present
+ansible.builtin.file:
+path: /opt/uniform/oscar-task-1
+state: directory</p>
+</li>
+<li>
+<p>name: Template oscar-task-1 config
+ansible.builtin.template:
+src: templates/oscar-task-1.j2
+dest: /etc/uniform/oscar-task-1.conf
+mode: &lsquo;0644&rsquo;</p>
+</li>
+</ul>
+<h1 id="description">Description:</h1>
+<h1 id="praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris">Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</h1>
+<ul>
+<li>
+<p>name: Ensure jasmine-task-2 is present
+ansible.builtin.file:
+path: /opt/uniform/jasmine-task-2
+state: directory</p>
+    </div>
+    <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/uniform/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Doc_samples</span>
+    <h1 class="f3 near-black">
+      <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/victor/" class="link black dim">
+        
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h1 id="play-victor---setup">Play: Victor - setup</h1>
+<ul>
+<li>
+<p>hosts: webservers
+become: false
+vars:
+app_name: &ldquo;victor_app&rdquo;
+retry_count: 1</p>
+<p>tasks:</p>
+<ul>
+<li>
+<p>name: Ensure mango-task-1 is present
+ansible.builtin.file:
+path: /opt/victor/mango-task-1
+state: directory</p>
+</li>
+<li>
+<p>name: Template mango-task-1 config
+ansible.builtin.template:
+src: templates/mango-task-1.j2
+dest: /etc/victor/mango-task-1.conf
+mode: &lsquo;0644&rsquo;</p>
+</li>
+</ul>
+<h1 id="description">Description:</h1>
+<h1 id="ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</h1>
+<ul>
+<li>
+<p>name: Ensure grape-task-2 is present
+ansible.builtin.file:
+path: /opt/victor/grape-task-2
+state: directory</p>
+</li>
+<li>
+<p>name: Template grape-task-2 config
+ansible.builtin.template:
+src: templates/grape-task-2.j2
+dest: /etc/victor/grape-task-2.conf
+mode: &lsquo;0644&rsquo;</p>
+    </div>
+    <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/victor/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Doc_samples</span>
+    <h1 class="f3 near-black">
+      <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/whiskey/" class="link black dim">
+        
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h1 id="play-whiskey---setup">Play: Whiskey - setup</h1>
+<ul>
+<li>
+<p>hosts: all
+become: false
+vars:
+app_name: &ldquo;whiskey_app&rdquo;
+retry_count: 5</p>
+<p>tasks:</p>
+<ul>
+<li>
+<p>name: Ensure sierra-task-1 is present
+ansible.builtin.file:
+path: /opt/whiskey/sierra-task-1
+state: directory</p>
+</li>
+<li>
+<p>name: Template sierra-task-1 config
+ansible.builtin.template:
+src: templates/sierra-task-1.j2
+dest: /etc/whiskey/sierra-task-1.conf
+mode: &lsquo;0644&rsquo;</p>
+</li>
+</ul>
+<h1 id="description">Description:</h1>
+<h1 id="praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa">Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</h1>
+<ul>
+<li>
+<p>name: Ensure hazel-task-2 is present
+ansible.builtin.file:
+path: /opt/whiskey/hazel-task-2
+state: directory</p>
+    </div>
+    <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/whiskey/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Doc_samples</span>
+    <h1 class="f3 near-black">
+      <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/xray-apple-hazel/" class="link black dim">
+        
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h1 id="play-xray---setup">Play: Xray - setup</h1>
+<ul>
+<li>
+<p>hosts: loadbalancers
+become: true
+vars:
+app_name: &ldquo;xray_app&rdquo;
+retry_count: 3</p>
+<p>tasks:</p>
+<ul>
+<li>
+<p>name: Ensure quebec-task-1 is present
+ansible.builtin.file:
+path: /opt/xray/quebec-task-1
+state: directory</p>
+</li>
+<li>
+<p>name: Template quebec-task-1 config
+ansible.builtin.template:
+src: templates/quebec-task-1.j2
+dest: /etc/xray/quebec-task-1.conf
+mode: &lsquo;0644&rsquo;</p>
+</li>
+</ul>
+<h1 id="description">Description:</h1>
+<h1 id="ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</h1>
+<ul>
+<li>
+<p>name: Ensure echo-task-2 is present
+ansible.builtin.file:
+path: /opt/xray/echo-task-2
+state: directory</p>
+</li>
+<li>
+<p>name: Template echo-task-2 config
+ansible.builtin.template:
+src: templates/echo-task-2.j2
+dest: /etc/xray/echo-task-2.conf
+mode: &lsquo;0644&rsquo;</p>
+</li>
+</ul>
+<h1 id="description-1">Description:</h1>
+<h1 id="sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</h1>
+<ul>
+<li>
+<p>name: Ensure echo-task-3 is present
+ansible.builtin.file:
+path: /opt/xray/echo-task-3
+state: directory</p>
+    </div>
+    <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/xray-apple-hazel/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Doc_samples</span>
+    <h1 class="f3 near-black">
+      <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/xray/" class="link black dim">
+        
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h1 id="play-xray---setup">Play: Xray - setup</h1>
+<ul>
+<li>
+<p>hosts: loadbalancers
+become: true
+vars:
+app_name: &ldquo;xray_app&rdquo;
+retry_count: 1</p>
+<p>tasks:</p>
+<ul>
+<li>
+<p>name: Ensure mango-task-1 is present
+ansible.builtin.file:
+path: /opt/xray/mango-task-1
+state: directory</p>
+</li>
+<li>
+<p>name: Template mango-task-1 config
+ansible.builtin.template:
+src: templates/mango-task-1.j2
+dest: /etc/xray/mango-task-1.conf
+mode: &lsquo;0644&rsquo;</p>
+</li>
+</ul>
+<h1 id="description">Description:</h1>
+<h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
+<ul>
+<li>
+<p>name: Ensure echo-task-2 is present
+ansible.builtin.file:
+path: /opt/xray/echo-task-2
+state: directory</p>
+</li>
+<li>
+<p>name: Template echo-task-2 config
+ansible.builtin.template:
+src: templates/echo-task-2.j2
+dest: /etc/xray/echo-task-2.conf
+mode: &lsquo;0644&rsquo;</p>
+    </div>
+    <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/xray/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Doc_samples</span>
+    <h1 class="f3 near-black">
+      <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/yankee-kiwi/" class="link black dim">
+        
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h1 id="play-yankee---setup">Play: Yankee - setup</h1>
+<ul>
+<li>
+<p>hosts: db
+become: true
+vars:
+app_name: &ldquo;yankee_app&rdquo;
+retry_count: 5</p>
+<p>tasks:</p>
+<ul>
+<li>
+<p>name: Ensure quebec-task-1 is present
+ansible.builtin.file:
+path: /opt/yankee/quebec-task-1
+state: directory</p>
+</li>
+<li>
+<p>name: Template quebec-task-1 config
+ansible.builtin.template:
+src: templates/quebec-task-1.j2
+dest: /etc/yankee/quebec-task-1.conf
+mode: &lsquo;0644&rsquo;</p>
+</li>
+</ul>
+<h1 id="description">Description:</h1>
+<h1 id="praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua">Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
+<ul>
+<li>
+<p>name: Ensure india-task-2 is present
+ansible.builtin.file:
+path: /opt/yankee/india-task-2
+state: directory</p>
+    </div>
+    <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/yankee-kiwi/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Doc_samples</span>
+    <h1 class="f3 near-black">
+      <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/yankee-xray/" class="link black dim">
+        
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h1 id="play-yankee---setup">Play: Yankee - setup</h1>
+<ul>
+<li>
+<p>hosts: db
+become: false
+vars:
+app_name: &ldquo;yankee_app&rdquo;
+retry_count: 5</p>
+<p>tasks:</p>
+<ul>
+<li>
+<p>name: Ensure lemon-task-1 is present
+ansible.builtin.file:
+path: /opt/yankee/lemon-task-1
+state: directory</p>
+</li>
+<li>
+<p>name: Template lemon-task-1 config
+ansible.builtin.template:
+src: templates/lemon-task-1.j2
+dest: /etc/yankee/lemon-task-1.conf
+mode: &lsquo;0644&rsquo;</p>
+</li>
+</ul>
+<h1 id="description">Description:</h1>
+<h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua">Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
+<ul>
+<li>
+<p>name: Ensure tango-task-2 is present
+ansible.builtin.file:
+path: /opt/yankee/tango-task-2
+state: directory</p>
+</li>
+<li>
+<p>name: Template tango-task-2 config
+ansible.builtin.template:
+src: templates/tango-task-2.j2
+dest: /etc/yankee/tango-task-2.conf
+mode: &lsquo;0644&rsquo;</p>
+    </div>
+    <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/yankee-xray/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Doc_samples</span>
+    <h1 class="f3 near-black">
+      <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/yankee/" class="link black dim">
+        
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h1 id="play-yankee---setup">Play: Yankee - setup</h1>
+<ul>
+<li>
+<p>hosts: db
+become: true
+vars:
+app_name: &ldquo;yankee_app&rdquo;
+retry_count: 5</p>
+<p>tasks:</p>
+<ul>
+<li>
+<p>name: Ensure alpha-task-1 is present
+ansible.builtin.file:
+path: /opt/yankee/alpha-task-1
+state: directory</p>
+</li>
+<li>
+<p>name: Template alpha-task-1 config
+ansible.builtin.template:
+src: templates/alpha-task-1.j2
+dest: /etc/yankee/alpha-task-1.conf
+mode: &lsquo;0644&rsquo;</p>
+</li>
+</ul>
+<h1 id="description">Description:</h1>
+<h1 id="sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</h1>
+<ul>
+<li>
+<p>name: Ensure victor-task-2 is present
+ansible.builtin.file:
+path: /opt/yankee/victor-task-2
+state: directory</p>
+</li>
+<li>
+<p>name: Template victor-task-2 config
+ansible.builtin.template:
+src: templates/victor-task-2.j2
+dest: /etc/yankee/victor-task-2.conf
+mode: &lsquo;0644&rsquo;</p>
+    </div>
+    <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/mike-hazel/yankee/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+        <div class="w-100 w-30-l mb4 relative bg-white">
+          <div class="w-100 mb4 nested-copy-line-height relative bg-white">
+  <div class="mb3 pa4 gray overflow-hidden bg-white">
+    <span class="f6 db">Doc_samples</span>
+    <h1 class="f3 near-black">
+      <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/readme/" class="link black dim">
+        
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      <h1 id="mike-delta">mike-delta</h1>
+<p>Directory created for testing.
+Depth: 7</p>
+<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+    </div>
+    <a href="/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/readme/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+  </div>
+</div>
+
+        </div>
+      
+    </section>
+    <ul class="pagination pagination-default">
+      <li class="page-item">
+        <a href="/doc_sample/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/doc_sample/page/15/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/doc_sample/page/14/" aria-label="Page 14" class="page-link" role="button">14</a>
+      </li>
+      <li class="page-item">
+        <a href="/doc_sample/page/15/" aria-label="Page 15" class="page-link" role="button">15</a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 16" class="page-link" role="button">16</a>
+      </li>
+      <li class="page-item">
+        <a href="/doc_sample/page/17/" aria-label="Page 17" class="page-link" role="button">17</a>
+      </li>
+      <li class="page-item">
+        <a href="/doc_sample/page/18/" aria-label="Page 18" class="page-link" role="button">18</a>
+      </li>
+      <li class="page-item">
+        <a href="/doc_sample/page/17/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/doc_sample/page/21/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul></article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  My New Hugo Site 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
