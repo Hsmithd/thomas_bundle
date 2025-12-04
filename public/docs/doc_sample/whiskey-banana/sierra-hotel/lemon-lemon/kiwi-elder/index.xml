@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kiwi Elder on Thomas Bundle Docs</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/</link><description>Recent content in Kiwi Elder on Thomas Bundle Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/index.xml" rel="self" type="application/rss+xml"/><item><title>Charlie Iris Sierra</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/charlie-iris-sierra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/charlie-iris-sierra/</guid><description>&lt;h1 id="play-charlie---setup"&gt;Play: Charlie - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: true
+vars:
+app_name: &amp;ldquo;charlie_app&amp;rdquo;
+retry_count: 5&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure whiskey-task-1 is present
+ansible.builtin.file:
+path: /opt/charlie/whiskey-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template whiskey-task-1 config
+ansible.builtin.template:
+src: templates/whiskey-task-1.j2
+dest: /etc/charlie/whiskey-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus"&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure romeo-task-2 is present
+ansible.builtin.file:
+path: /opt/charlie/romeo-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template romeo-task-2 config
+ansible.builtin.template:
+src: templates/romeo-task-2.j2
+dest: /etc/charlie/romeo-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item><item><title>November</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november/</guid><description>&lt;h1 id="play-november---setup"&gt;Play: November - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: true
+vars:
+app_name: &amp;ldquo;november_app&amp;rdquo;
+retry_count: 4&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure india-task-1 is present
+ansible.builtin.file:
+path: /opt/november/india-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template india-task-1 config
+ansible.builtin.template:
+src: templates/india-task-1.j2
+dest: /etc/november/india-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris"&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure whiskey-task-2 is present
+ansible.builtin.file:
+path: /opt/november/whiskey-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template whiskey-task-2 config
+ansible.builtin.template:
+src: templates/whiskey-task-2.j2
+dest: /etc/november/whiskey-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item></channel></rss>

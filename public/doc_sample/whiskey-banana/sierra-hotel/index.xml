@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sierra Hotel on My New Hugo Site</title>
+    <title>Sierra Hotel on Thomas Bundle Docs</title>
     <link>http://localhost:1313/doc_sample/whiskey-banana/sierra-hotel/</link>
-    <description>Recent content in Sierra Hotel on My New Hugo Site</description>
+    <description>Recent content in Sierra Hotel on Thomas Bundle Docs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/doc_sample/whiskey-banana/sierra-hotel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/doc_sample/whiskey-banana/sierra-hotel/readme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/doc_sample/whiskey-banana/sierra-hotel/readme/</guid>
-      <description>&lt;h1 id=&#34;sierra-hotel&#34;&gt;sierra-hotel&lt;a class=&#34;anchor&#34; href=&#34;#sierra-hotel&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Directory created for testing.&#xA;Depth: 3&lt;/p&gt;&#xA;&lt;p&gt;Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
       <link>http://localhost:1313/doc_sample/whiskey-banana/sierra-hotel/xray-india/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/doc_sample/whiskey-banana/sierra-hotel/xray-india/</guid>
-      <description>&lt;h1 id=&#34;play-xray---setup&#34;&gt;Play: Xray - setup&lt;a class=&#34;anchor&#34; href=&#34;#play-xray---setup&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;hosts: webservers&#xA;become: false&#xA;vars:&#xA;app_name: &amp;ldquo;xray_app&amp;rdquo;&#xA;retry_count: 3&lt;/p&gt;&#xA;&lt;p&gt;tasks:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;name: Ensure golf-task-1 is present&#xA;ansible.builtin.file:&#xA;path: /opt/xray/golf-task-1&#xA;state: directory&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;name: Template golf-task-1 config&#xA;ansible.builtin.template:&#xA;src: templates/golf-task-1.j2&#xA;dest: /etc/xray/golf-task-1.conf&#xA;mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;description&#34;&gt;Description:&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua&#34;&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;a class=&#34;anchor&#34; href=&#34;#sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;handlers:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;name: restart xray service&#xA;ansible.builtin.service:&#xA;name: xray&#xA;state: restarted&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;a class=&#34;anchor&#34; href=&#34;#notes&#34;&gt;#&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;play-xray---setup&#34;&gt;Play: Xray - setup&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;hosts: webservers&#xA;become: false&#xA;vars:&#xA;app_name: &amp;ldquo;xray_app&amp;rdquo;&#xA;retry_count: 3&lt;/p&gt;&#xA;&lt;p&gt;tasks:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;name: Ensure golf-task-1 is present&#xA;ansible.builtin.file:&#xA;path: /opt/xray/golf-task-1&#xA;state: directory&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;name: Template golf-task-1 config&#xA;ansible.builtin.template:&#xA;src: templates/golf-task-1.j2&#xA;dest: /etc/xray/golf-task-1.conf&#xA;mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;description&#34;&gt;Description:&lt;/h1&gt;&#xA;&lt;h1 id=&#34;sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua&#34;&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;&#xA;&lt;p&gt;handlers:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;name: restart xray service&#xA;ansible.builtin.service:&#xA;name: xray&#xA;state: restarted&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;&#xA;&lt;p&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

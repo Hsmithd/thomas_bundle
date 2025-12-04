@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Whiskey Banana on Thomas Bundle Docs</title><link>http://example.org/docs/doc_sample/whiskey-banana/</link><description>Recent content in Whiskey Banana on Thomas Bundle Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://example.org/docs/doc_sample/whiskey-banana/index.xml" rel="self" type="application/rss+xml"/><item><title>Cherry Foxtrot</title><link>http://example.org/docs/doc_sample/whiskey-banana/cherry-foxtrot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/cherry-foxtrot/</guid><description>&lt;h1 id="play-cherry---setup"&gt;Play: Cherry - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: true
+vars:
+app_name: &amp;ldquo;cherry_app&amp;rdquo;
+retry_count: 2&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure november-task-1 is present
+ansible.builtin.file:
+path: /opt/cherry/november-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template november-task-1 config
+ansible.builtin.template:
+src: templates/november-task-1.j2
+dest: /etc/cherry/november-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum"&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure iris-task-2 is present
+ansible.builtin.file:
+path: /opt/cherry/iris-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Tango</title><link>http://example.org/docs/doc_sample/whiskey-banana/tango/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/tango/</guid><description>&lt;h1 id="play-tango---setup"&gt;Play: Tango - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: false
+vars:
+app_name: &amp;ldquo;tango_app&amp;rdquo;
+retry_count: 4&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure victor-task-1 is present
+ansible.builtin.file:
+path: /opt/tango/victor-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template victor-task-1 config
+ansible.builtin.template:
+src: templates/victor-task-1.j2
+dest: /etc/tango/victor-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus"&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure quebec-task-2 is present
+ansible.builtin.file:
+path: /opt/tango/quebec-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template quebec-task-2 config
+ansible.builtin.template:
+src: templates/quebec-task-2.j2
+dest: /etc/tango/quebec-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item><item><title>Whiskey Charlie Apple</title><link>http://example.org/docs/doc_sample/whiskey-banana/whiskey-charlie-apple/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/whiskey-charlie-apple/</guid><description>&lt;h1 id="play-whiskey---setup"&gt;Play: Whiskey - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: true
+vars:
+app_name: &amp;ldquo;whiskey_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure mango-task-1 is present
+ansible.builtin.file:
+path: /opt/whiskey/mango-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template mango-task-1 config
+ansible.builtin.template:
+src: templates/mango-task-1.j2
+dest: /etc/whiskey/mango-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum"&gt;Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure grape-task-2 is present
+ansible.builtin.file:
+path: /opt/whiskey/grape-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template grape-task-2 config
+ansible.builtin.template:
+src: templates/grape-task-2.j2
+dest: /etc/whiskey/grape-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lemon Lemon on Thomas Bundle Docs</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/</link><description>Recent content in Lemon Lemon on Thomas Bundle Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/index.xml" rel="self" type="application/rss+xml"/><item><title>Delta</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/delta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/delta/</guid><description>&lt;h1 id="play-delta---setup"&gt;Play: Delta - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: true
+vars:
+app_name: &amp;ldquo;delta_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure papa-task-1 is present
+ansible.builtin.file:
+path: /opt/delta/papa-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template papa-task-1 config
+ansible.builtin.template:
+src: templates/papa-task-1.j2
+dest: /etc/delta/papa-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum"&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure tango-task-2 is present
+ansible.builtin.file:
+path: /opt/delta/tango-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template tango-task-2 config
+ansible.builtin.template:
+src: templates/tango-task-2.j2
+dest: /etc/delta/tango-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item></channel></rss>

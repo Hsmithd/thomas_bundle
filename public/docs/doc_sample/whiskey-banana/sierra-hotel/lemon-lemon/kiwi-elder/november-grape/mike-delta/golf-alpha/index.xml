@@ -1,0 +1,3088 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Golf Alpha on Thomas Bundle Docs</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/</link><description>Recent content in Golf Alpha on Thomas Bundle Docs</description><generator>Hugo</generator><language>en-us</language><atom:link href="http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/index.xml" rel="self" type="application/rss+xml"/><item><title>Alpha Charlie</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/alpha-charlie/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/alpha-charlie/</guid><description>&lt;h1 id="play-alpha---setup"&gt;Play: Alpha - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: true
+vars:
+app_name: &amp;ldquo;alpha_app&amp;rdquo;
+retry_count: 1&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure lemon-task-1 is present
+ansible.builtin.file:
+path: /opt/alpha/lemon-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template lemon-task-1 config
+ansible.builtin.template:
+src: templates/lemon-task-1.j2
+dest: /etc/alpha/lemon-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris"&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure hotel-task-2 is present
+ansible.builtin.file:
+path: /opt/alpha/hotel-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template hotel-task-2 config
+ansible.builtin.template:
+src: templates/hotel-task-2.j2
+dest: /etc/alpha/hotel-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item><item><title>Apple</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/apple/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/apple/</guid><description>&lt;h1 id="play-apple---setup"&gt;Play: Apple - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: true
+vars:
+app_name: &amp;ldquo;apple_app&amp;rdquo;
+retry_count: 5&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure lemon-task-1 is present
+ansible.builtin.file:
+path: /opt/apple/lemon-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template lemon-task-1 config
+ansible.builtin.template:
+src: templates/lemon-task-1.j2
+dest: /etc/apple/lemon-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi"&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure delta-task-2 is present
+ansible.builtin.file:
+path: /opt/apple/delta-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Banana Mango Hazel</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/banana-mango-hazel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/banana-mango-hazel/</guid><description>&lt;h1 id="play-banana---setup"&gt;Play: Banana - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: true
+vars:
+app_name: &amp;ldquo;banana_app&amp;rdquo;
+retry_count: 4&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure date-task-1 is present
+ansible.builtin.file:
+path: /opt/banana/date-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template date-task-1 config
+ansible.builtin.template:
+src: templates/date-task-1.j2
+dest: /etc/banana/date-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus"&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure kilo-task-2 is present
+ansible.builtin.file:
+path: /opt/banana/kilo-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template kilo-task-2 config
+ansible.builtin.template:
+src: templates/kilo-task-2.j2
+dest: /etc/banana/kilo-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item><item><title>Banana Victor Uniform</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/banana-victor-uniform/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/banana-victor-uniform/</guid><description>&lt;h1 id="play-banana---setup"&gt;Play: Banana - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: false
+vars:
+app_name: &amp;ldquo;banana_app&amp;rdquo;
+retry_count: 1&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure grape-task-1 is present
+ansible.builtin.file:
+path: /opt/banana/grape-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template grape-task-1 config
+ansible.builtin.template:
+src: templates/grape-task-1.j2
+dest: /etc/banana/grape-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit"&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure iris-task-2 is present
+ansible.builtin.file:
+path: /opt/banana/iris-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template iris-task-2 config
+ansible.builtin.template:
+src: templates/iris-task-2.j2
+dest: /etc/banana/iris-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item><item><title>Bravo Banana</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/bravo-banana/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/bravo-banana/</guid><description>&lt;h1 id="play-bravo---setup"&gt;Play: Bravo - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: false
+vars:
+app_name: &amp;ldquo;bravo_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure mike-task-1 is present
+ansible.builtin.file:
+path: /opt/bravo/mike-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template mike-task-1 config
+ansible.builtin.template:
+src: templates/mike-task-1.j2
+dest: /etc/bravo/mike-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa"&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure banana-task-2 is present
+ansible.builtin.file:
+path: /opt/bravo/banana-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Bravo Fig Delta</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/bravo-fig-delta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/bravo-fig-delta/</guid><description>&lt;h1 id="play-bravo---setup"&gt;Play: Bravo - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: false
+vars:
+app_name: &amp;ldquo;bravo_app&amp;rdquo;
+retry_count: 1&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure cherry-task-1 is present
+ansible.builtin.file:
+path: /opt/bravo/cherry-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template cherry-task-1 config
+ansible.builtin.template:
+src: templates/cherry-task-1.j2
+dest: /etc/bravo/cherry-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa"&gt;Excepteur sint occaecat cupidatat non proident, sunt in culpa.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure echo-task-2 is present
+ansible.builtin.file:
+path: /opt/bravo/echo-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template echo-task-2 config
+ansible.builtin.template:
+src: templates/echo-task-2.j2
+dest: /etc/bravo/echo-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit"&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;</description></item><item><title>Bravo Golf Delta</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/bravo-golf-delta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/bravo-golf-delta/</guid><description>&lt;h1 id="play-bravo---setup"&gt;Play: Bravo - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: true
+vars:
+app_name: &amp;ldquo;bravo_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure yankee-task-1 is present
+ansible.builtin.file:
+path: /opt/bravo/yankee-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template yankee-task-1 config
+ansible.builtin.template:
+src: templates/yankee-task-1.j2
+dest: /etc/bravo/yankee-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam"&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure quebec-task-2 is present
+ansible.builtin.file:
+path: /opt/bravo/quebec-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template quebec-task-2 config
+ansible.builtin.template:
+src: templates/quebec-task-2.j2
+dest: /etc/bravo/quebec-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus"&gt;Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure date-task-3 is present
+ansible.builtin.file:
+path: /opt/bravo/date-task-3
+state: directory&lt;/p&gt;</description></item><item><title>Bravo</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/bravo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/bravo/</guid><description>&lt;h1 id="play-bravo---setup"&gt;Play: Bravo - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: true
+vars:
+app_name: &amp;ldquo;bravo_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure fig-task-1 is present
+ansible.builtin.file:
+path: /opt/bravo/fig-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template fig-task-1 config
+ansible.builtin.template:
+src: templates/fig-task-1.j2
+dest: /etc/bravo/fig-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa"&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Excepteur sint occaecat cupidatat non proident, sunt in culpa.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure lima-task-2 is present
+ansible.builtin.file:
+path: /opt/bravo/lima-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Charlie Tango</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/charlie-tango/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/charlie-tango/</guid><description>&lt;h1 id="play-charlie---setup"&gt;Play: Charlie - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: false
+vars:
+app_name: &amp;ldquo;charlie_app&amp;rdquo;
+retry_count: 2&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure golf-task-1 is present
+ansible.builtin.file:
+path: /opt/charlie/golf-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template golf-task-1 config
+ansible.builtin.template:
+src: templates/golf-task-1.j2
+dest: /etc/charlie/golf-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum"&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure oscar-task-2 is present
+ansible.builtin.file:
+path: /opt/charlie/oscar-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template oscar-task-2 config
+ansible.builtin.template:
+src: templates/oscar-task-2.j2
+dest: /etc/charlie/oscar-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item><item><title>Cherry Delta</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/cherry-delta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/cherry-delta/</guid><description>&lt;h1 id="play-cherry---setup"&gt;Play: Cherry - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: true
+vars:
+app_name: &amp;ldquo;cherry_app&amp;rdquo;
+retry_count: 4&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure kiwi-task-1 is present
+ansible.builtin.file:
+path: /opt/cherry/kiwi-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template kiwi-task-1 config
+ansible.builtin.template:
+src: templates/kiwi-task-1.j2
+dest: /etc/cherry/kiwi-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure quebec-task-2 is present
+ansible.builtin.file:
+path: /opt/cherry/quebec-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Cherry</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/cherry/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/cherry/</guid><description>&lt;h1 id="play-cherry---setup"&gt;Play: Cherry - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: true
+vars:
+app_name: &amp;ldquo;cherry_app&amp;rdquo;
+retry_count: 5&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure echo-task-1 is present
+ansible.builtin.file:
+path: /opt/cherry/echo-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template echo-task-1 config
+ansible.builtin.template:
+src: templates/echo-task-1.j2
+dest: /etc/cherry/echo-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Excepteur sint occaecat cupidatat non proident, sunt in culpa. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure kiwi-task-2 is present
+ansible.builtin.file:
+path: /opt/cherry/kiwi-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Date Banana</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/date-banana/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/date-banana/</guid><description>&lt;h1 id="play-date---setup"&gt;Play: Date - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: true
+vars:
+app_name: &amp;ldquo;date_app&amp;rdquo;
+retry_count: 1&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure date-task-1 is present
+ansible.builtin.file:
+path: /opt/date/date-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template date-task-1 config
+ansible.builtin.template:
+src: templates/date-task-1.j2
+dest: /etc/date/date-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure delta-task-2 is present
+ansible.builtin.file:
+path: /opt/date/delta-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Date</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/date/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/date/</guid><description>&lt;h1 id="play-date---setup"&gt;Play: Date - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: false
+vars:
+app_name: &amp;ldquo;date_app&amp;rdquo;
+retry_count: 4&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure cherry-task-1 is present
+ansible.builtin.file:
+path: /opt/date/cherry-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template cherry-task-1 config
+ansible.builtin.template:
+src: templates/cherry-task-1.j2
+dest: /etc/date/cherry-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus"&gt;Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure bravo-task-2 is present
+ansible.builtin.file:
+path: /opt/date/bravo-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template bravo-task-2 config
+ansible.builtin.template:
+src: templates/bravo-task-2.j2
+dest: /etc/date/bravo-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris"&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure mango-task-3 is present
+ansible.builtin.file:
+path: /opt/date/mango-task-3
+state: directory&lt;/p&gt;</description></item><item><title>Delta Hotel</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/delta-hotel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/delta-hotel/</guid><description>&lt;h1 id="play-delta---setup"&gt;Play: Delta - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: true
+vars:
+app_name: &amp;ldquo;delta_app&amp;rdquo;
+retry_count: 2&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure golf-task-1 is present
+ansible.builtin.file:
+path: /opt/delta/golf-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template golf-task-1 config
+ansible.builtin.template:
+src: templates/golf-task-1.j2
+dest: /etc/delta/golf-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum"&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure mike-task-2 is present
+ansible.builtin.file:
+path: /opt/delta/mike-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template mike-task-2 config
+ansible.builtin.template:
+src: templates/mike-task-2.j2
+dest: /etc/delta/mike-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa"&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Excepteur sint occaecat cupidatat non proident, sunt in culpa.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;</description></item><item><title>Delta Lima</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/delta-lima/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/delta-lima/</guid><description>&lt;h1 id="play-delta---setup"&gt;Play: Delta - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: false
+vars:
+app_name: &amp;ldquo;delta_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure yankee-task-1 is present
+ansible.builtin.file:
+path: /opt/delta/yankee-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template yankee-task-1 config
+ansible.builtin.template:
+src: templates/yankee-task-1.j2
+dest: /etc/delta/yankee-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi"&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure juliet-task-2 is present
+ansible.builtin.file:
+path: /opt/delta/juliet-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template juliet-task-2 config
+ansible.builtin.template:
+src: templates/juliet-task-2.j2
+dest: /etc/delta/juliet-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris"&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;</description></item><item><title>Echo India Grape</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/echo-india-grape/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/echo-india-grape/</guid><description>&lt;h1 id="play-echo---setup"&gt;Play: Echo - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: true
+vars:
+app_name: &amp;ldquo;echo_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure tango-task-1 is present
+ansible.builtin.file:
+path: /opt/echo/tango-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template tango-task-1 config
+ansible.builtin.template:
+src: templates/tango-task-1.j2
+dest: /etc/echo/tango-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit"&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;name: restart echo service
+ansible.builtin.service:
+name: echo
+state: restarted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.&lt;/p&gt;</description></item><item><title>Elder Kilo Kilo</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/elder-kilo-kilo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/elder-kilo-kilo/</guid><description>&lt;h1 id="play-elder---setup"&gt;Play: Elder - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: false
+vars:
+app_name: &amp;ldquo;elder_app&amp;rdquo;
+retry_count: 2&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure uniform-task-1 is present
+ansible.builtin.file:
+path: /opt/elder/uniform-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template uniform-task-1 config
+ansible.builtin.template:
+src: templates/uniform-task-1.j2
+dest: /etc/elder/uniform-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit"&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure india-task-2 is present
+ansible.builtin.file:
+path: /opt/elder/india-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template india-task-2 config
+ansible.builtin.template:
+src: templates/india-task-2.j2
+dest: /etc/elder/india-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item><item><title>Elder</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/elder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/elder/</guid><description>&lt;h1 id="play-elder---setup"&gt;Play: Elder - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: true
+vars:
+app_name: &amp;ldquo;elder_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure lima-task-1 is present
+ansible.builtin.file:
+path: /opt/elder/lima-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template lima-task-1 config
+ansible.builtin.template:
+src: templates/lima-task-1.j2
+dest: /etc/elder/lima-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus"&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Excepteur sint occaecat cupidatat non proident, sunt in culpa. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure apple-task-2 is present
+ansible.builtin.file:
+path: /opt/elder/apple-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Fig</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/fig/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/fig/</guid><description>&lt;h1 id="play-fig---setup"&gt;Play: Fig - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: true
+vars:
+app_name: &amp;ldquo;fig_app&amp;rdquo;
+retry_count: 4&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure romeo-task-1 is present
+ansible.builtin.file:
+path: /opt/fig/romeo-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template romeo-task-1 config
+ansible.builtin.template:
+src: templates/romeo-task-1.j2
+dest: /etc/fig/romeo-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;name: restart fig service
+ansible.builtin.service:
+name: fig
+state: restarted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.&lt;/p&gt;</description></item><item><title>Foxtrot Hazel Hotel</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/foxtrot-hazel-hotel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/foxtrot-hazel-hotel/</guid><description>&lt;h1 id="play-foxtrot---setup"&gt;Play: Foxtrot - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: true
+vars:
+app_name: &amp;ldquo;foxtrot_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure fig-task-1 is present
+ansible.builtin.file:
+path: /opt/foxtrot/fig-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template fig-task-1 config
+ansible.builtin.template:
+src: templates/fig-task-1.j2
+dest: /etc/foxtrot/fig-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa"&gt;Excepteur sint occaecat cupidatat non proident, sunt in culpa.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure charlie-task-2 is present
+ansible.builtin.file:
+path: /opt/foxtrot/charlie-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template charlie-task-2 config
+ansible.builtin.template:
+src: templates/charlie-task-2.j2
+dest: /etc/foxtrot/charlie-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;</description></item><item><title>Foxtrot Mango Juliet</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/foxtrot-mango-juliet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/foxtrot-mango-juliet/</guid><description>&lt;h1 id="play-foxtrot---setup"&gt;Play: Foxtrot - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: false
+vars:
+app_name: &amp;ldquo;foxtrot_app&amp;rdquo;
+retry_count: 5&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure kiwi-task-1 is present
+ansible.builtin.file:
+path: /opt/foxtrot/kiwi-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template kiwi-task-1 config
+ansible.builtin.template:
+src: templates/kiwi-task-1.j2
+dest: /etc/foxtrot/kiwi-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum"&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure elder-task-2 is present
+ansible.builtin.file:
+path: /opt/foxtrot/elder-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Golf Golf Golf</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/golf-golf-golf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/golf-golf-golf/</guid><description>&lt;h1 id="play-golf---setup"&gt;Play: Golf - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: true
+vars:
+app_name: &amp;ldquo;golf_app&amp;rdquo;
+retry_count: 5&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure mango-task-1 is present
+ansible.builtin.file:
+path: /opt/golf/mango-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template mango-task-1 config
+ansible.builtin.template:
+src: templates/mango-task-1.j2
+dest: /etc/golf/mango-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa"&gt;Excepteur sint occaecat cupidatat non proident, sunt in culpa. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Excepteur sint occaecat cupidatat non proident, sunt in culpa.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure victor-task-2 is present
+ansible.builtin.file:
+path: /opt/golf/victor-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Golf Victor</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/golf-victor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/golf-victor/</guid><description>&lt;h1 id="play-golf---setup"&gt;Play: Golf - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: true
+vars:
+app_name: &amp;ldquo;golf_app&amp;rdquo;
+retry_count: 1&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure tango-task-1 is present
+ansible.builtin.file:
+path: /opt/golf/tango-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template tango-task-1 config
+ansible.builtin.template:
+src: templates/tango-task-1.j2
+dest: /etc/golf/tango-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa"&gt;Excepteur sint occaecat cupidatat non proident, sunt in culpa.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;name: restart golf service
+ansible.builtin.service:
+name: golf
+state: restarted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;</description></item><item><title>Grape Victor</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/grape-victor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/grape-victor/</guid><description>&lt;h1 id="play-grape---setup"&gt;Play: Grape - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: false
+vars:
+app_name: &amp;ldquo;grape_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure date-task-1 is present
+ansible.builtin.file:
+path: /opt/grape/date-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template date-task-1 config
+ansible.builtin.template:
+src: templates/date-task-1.j2
+dest: /etc/grape/date-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa"&gt;Excepteur sint occaecat cupidatat non proident, sunt in culpa. Excepteur sint occaecat cupidatat non proident, sunt in culpa.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure fig-task-2 is present
+ansible.builtin.file:
+path: /opt/grape/fig-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template fig-task-2 config
+ansible.builtin.template:
+src: templates/fig-task-2.j2
+dest: /etc/grape/fig-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item><item><title>Grape</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/grape/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/grape/</guid><description>&lt;h1 id="play-grape---setup"&gt;Play: Grape - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: true
+vars:
+app_name: &amp;ldquo;grape_app&amp;rdquo;
+retry_count: 2&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure november-task-1 is present
+ansible.builtin.file:
+path: /opt/grape/november-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template november-task-1 config
+ansible.builtin.template:
+src: templates/november-task-1.j2
+dest: /etc/grape/november-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure bravo-task-2 is present
+ansible.builtin.file:
+path: /opt/grape/bravo-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template bravo-task-2 config
+ansible.builtin.template:
+src: templates/bravo-task-2.j2
+dest: /etc/grape/bravo-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi"&gt;Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure tango-task-3 is present
+ansible.builtin.file:
+path: /opt/grape/tango-task-3
+state: directory&lt;/p&gt;</description></item><item><title>Hazel Cherry</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/hazel-cherry/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/hazel-cherry/</guid><description>&lt;h1 id="play-hazel---setup"&gt;Play: Hazel - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: true
+vars:
+app_name: &amp;ldquo;hazel_app&amp;rdquo;
+retry_count: 5&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure echo-task-1 is present
+ansible.builtin.file:
+path: /opt/hazel/echo-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template echo-task-1 config
+ansible.builtin.template:
+src: templates/echo-task-1.j2
+dest: /etc/hazel/echo-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum"&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;name: restart hazel service
+ansible.builtin.service:
+name: hazel
+state: restarted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.&lt;/p&gt;</description></item><item><title>Hazel</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/hazel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/hazel/</guid><description>&lt;h1 id="play-hazel---setup"&gt;Play: Hazel - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: false
+vars:
+app_name: &amp;ldquo;hazel_app&amp;rdquo;
+retry_count: 1&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure date-task-1 is present
+ansible.builtin.file:
+path: /opt/hazel/date-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template date-task-1 config
+ansible.builtin.template:
+src: templates/date-task-1.j2
+dest: /etc/hazel/date-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus-curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus"&gt;Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;name: restart hazel service
+ansible.builtin.service:
+name: hazel
+state: restarted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.&lt;/p&gt;</description></item><item><title>Hotel Jasmine Iris</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/hotel-jasmine-iris/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/hotel-jasmine-iris/</guid><description>&lt;h1 id="play-hotel---setup"&gt;Play: Hotel - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: false
+vars:
+app_name: &amp;ldquo;hotel_app&amp;rdquo;
+retry_count: 5&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure iris-task-1 is present
+ansible.builtin.file:
+path: /opt/hotel/iris-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template iris-task-1 config
+ansible.builtin.template:
+src: templates/iris-task-1.j2
+dest: /etc/hotel/iris-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris"&gt;Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure uniform-task-2 is present
+ansible.builtin.file:
+path: /opt/hotel/uniform-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template uniform-task-2 config
+ansible.builtin.template:
+src: templates/uniform-task-2.j2
+dest: /etc/hotel/uniform-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item><item><title>India Fig Date</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/india-fig-date/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/india-fig-date/</guid><description>&lt;h1 id="play-india---setup"&gt;Play: India - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: true
+vars:
+app_name: &amp;ldquo;india_app&amp;rdquo;
+retry_count: 2&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure mango-task-1 is present
+ansible.builtin.file:
+path: /opt/india/mango-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template mango-task-1 config
+ansible.builtin.template:
+src: templates/mango-task-1.j2
+dest: /etc/india/mango-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure lima-task-2 is present
+ansible.builtin.file:
+path: /opt/india/lima-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template lima-task-2 config
+ansible.builtin.template:
+src: templates/lima-task-2.j2
+dest: /etc/india/lima-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item><item><title>India Grape Jasmine</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/india-grape-jasmine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/india-grape-jasmine/</guid><description>&lt;h1 id="play-india---setup"&gt;Play: India - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: true
+vars:
+app_name: &amp;ldquo;india_app&amp;rdquo;
+retry_count: 4&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure elder-task-1 is present
+ansible.builtin.file:
+path: /opt/india/elder-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template elder-task-1 config
+ansible.builtin.template:
+src: templates/elder-task-1.j2
+dest: /etc/india/elder-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi"&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure apple-task-2 is present
+ansible.builtin.file:
+path: /opt/india/apple-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template apple-task-2 config
+ansible.builtin.template:
+src: templates/apple-task-2.j2
+dest: /etc/india/apple-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus"&gt;Excepteur sint occaecat cupidatat non proident, sunt in culpa. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure victor-task-3 is present
+ansible.builtin.file:
+path: /opt/india/victor-task-3
+state: directory&lt;/p&gt;</description></item><item><title>India</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/india/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/india/</guid><description>&lt;h1 id="play-india---setup"&gt;Play: India - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: false
+vars:
+app_name: &amp;ldquo;india_app&amp;rdquo;
+retry_count: 5&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure delta-task-1 is present
+ansible.builtin.file:
+path: /opt/india/delta-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template delta-task-1 config
+ansible.builtin.template:
+src: templates/delta-task-1.j2
+dest: /etc/india/delta-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi"&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure charlie-task-2 is present
+ansible.builtin.file:
+path: /opt/india/charlie-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template charlie-task-2 config
+ansible.builtin.template:
+src: templates/charlie-task-2.j2
+dest: /etc/india/charlie-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item><item><title>Jasmine Grape Delta</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/jasmine-grape-delta/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/jasmine-grape-delta/</guid><description>&lt;h1 id="play-jasmine---setup"&gt;Play: Jasmine - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: true
+vars:
+app_name: &amp;ldquo;jasmine_app&amp;rdquo;
+retry_count: 2&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure oscar-task-1 is present
+ansible.builtin.file:
+path: /opt/jasmine/oscar-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template oscar-task-1 config
+ansible.builtin.template:
+src: templates/oscar-task-1.j2
+dest: /etc/jasmine/oscar-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam"&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure kiwi-task-2 is present
+ansible.builtin.file:
+path: /opt/jasmine/kiwi-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template kiwi-task-2 config
+ansible.builtin.template:
+src: templates/kiwi-task-2.j2
+dest: /etc/jasmine/kiwi-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus"&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;</description></item><item><title>Jasmine</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/jasmine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/jasmine/</guid><description>&lt;h1 id="play-jasmine---setup"&gt;Play: Jasmine - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: true
+vars:
+app_name: &amp;ldquo;jasmine_app&amp;rdquo;
+retry_count: 1&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure oscar-task-1 is present
+ansible.builtin.file:
+path: /opt/jasmine/oscar-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template oscar-task-1 config
+ansible.builtin.template:
+src: templates/oscar-task-1.j2
+dest: /etc/jasmine/oscar-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure iris-task-2 is present
+ansible.builtin.file:
+path: /opt/jasmine/iris-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template iris-task-2 config
+ansible.builtin.template:
+src: templates/iris-task-2.j2
+dest: /etc/jasmine/iris-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;</description></item><item><title>Juliet Elder Echo</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/juliet-elder-echo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/juliet-elder-echo/</guid><description>&lt;h1 id="play-juliet---setup"&gt;Play: Juliet - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: true
+vars:
+app_name: &amp;ldquo;juliet_app&amp;rdquo;
+retry_count: 1&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure quebec-task-1 is present
+ansible.builtin.file:
+path: /opt/juliet/quebec-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template quebec-task-1 config
+ansible.builtin.template:
+src: templates/quebec-task-1.j2
+dest: /etc/juliet/quebec-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi"&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;name: restart juliet service
+ansible.builtin.service:
+name: juliet
+state: restarted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/p&gt;</description></item><item><title>Kilo Foxtrot Hotel</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/kilo-foxtrot-hotel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/kilo-foxtrot-hotel/</guid><description>&lt;h1 id="play-kilo---setup"&gt;Play: Kilo - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: false
+vars:
+app_name: &amp;ldquo;kilo_app&amp;rdquo;
+retry_count: 4&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure xray-task-1 is present
+ansible.builtin.file:
+path: /opt/kilo/xray-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template xray-task-1 config
+ansible.builtin.template:
+src: templates/xray-task-1.j2
+dest: /etc/kilo/xray-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure mango-task-2 is present
+ansible.builtin.file:
+path: /opt/kilo/mango-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template mango-task-2 config
+ansible.builtin.template:
+src: templates/mango-task-2.j2
+dest: /etc/kilo/mango-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit"&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure foxtrot-task-3 is present
+ansible.builtin.file:
+path: /opt/kilo/foxtrot-task-3
+state: directory&lt;/p&gt;</description></item><item><title>Kilo Hazel Mango</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/kilo-hazel-mango/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/kilo-hazel-mango/</guid><description>&lt;h1 id="play-kilo---setup"&gt;Play: Kilo - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: true
+vars:
+app_name: &amp;ldquo;kilo_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure quebec-task-1 is present
+ansible.builtin.file:
+path: /opt/kilo/quebec-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template quebec-task-1 config
+ansible.builtin.template:
+src: templates/quebec-task-1.j2
+dest: /etc/kilo/quebec-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris"&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure tango-task-2 is present
+ansible.builtin.file:
+path: /opt/kilo/tango-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Kiwi Elder</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/kiwi-elder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/kiwi-elder/</guid><description>&lt;h1 id="play-kiwi---setup"&gt;Play: Kiwi - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: true
+vars:
+app_name: &amp;ldquo;kiwi_app&amp;rdquo;
+retry_count: 1&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure romeo-task-1 is present
+ansible.builtin.file:
+path: /opt/kiwi/romeo-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template romeo-task-1 config
+ansible.builtin.template:
+src: templates/romeo-task-1.j2
+dest: /etc/kiwi/romeo-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure jasmine-task-2 is present
+ansible.builtin.file:
+path: /opt/kiwi/jasmine-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Kiwi Juliet</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/kiwi-juliet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/kiwi-juliet/</guid><description>&lt;h1 id="play-kiwi---setup"&gt;Play: Kiwi - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: false
+vars:
+app_name: &amp;ldquo;kiwi_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure quebec-task-1 is present
+ansible.builtin.file:
+path: /opt/kiwi/quebec-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template quebec-task-1 config
+ansible.builtin.template:
+src: templates/quebec-task-1.j2
+dest: /etc/kiwi/quebec-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum"&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure cherry-task-2 is present
+ansible.builtin.file:
+path: /opt/kiwi/cherry-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template cherry-task-2 config
+ansible.builtin.template:
+src: templates/cherry-task-2.j2
+dest: /etc/kiwi/cherry-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure date-task-3 is present
+ansible.builtin.file:
+path: /opt/kiwi/date-task-3
+state: directory&lt;/p&gt;</description></item><item><title>Kiwi</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/kiwi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/kiwi/</guid><description>&lt;h1 id="play-kiwi---setup"&gt;Play: Kiwi - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: false
+vars:
+app_name: &amp;ldquo;kiwi_app&amp;rdquo;
+retry_count: 1&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure mike-task-1 is present
+ansible.builtin.file:
+path: /opt/kiwi/mike-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template mike-task-1 config
+ansible.builtin.template:
+src: templates/mike-task-1.j2
+dest: /etc/kiwi/mike-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris"&gt;Excepteur sint occaecat cupidatat non proident, sunt in culpa. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure grape-task-2 is present
+ansible.builtin.file:
+path: /opt/kiwi/grape-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Lemon Banana</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/lemon-banana/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/lemon-banana/</guid><description>&lt;h1 id="play-lemon---setup"&gt;Play: Lemon - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: true
+vars:
+app_name: &amp;ldquo;lemon_app&amp;rdquo;
+retry_count: 1&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure mango-task-1 is present
+ansible.builtin.file:
+path: /opt/lemon/mango-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template mango-task-1 config
+ansible.builtin.template:
+src: templates/mango-task-1.j2
+dest: /etc/lemon/mango-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure zulu-task-2 is present
+ansible.builtin.file:
+path: /opt/lemon/zulu-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Lemon Lima</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/lemon-lima/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/lemon-lima/</guid><description>&lt;h1 id="play-lemon---setup"&gt;Play: Lemon - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: false
+vars:
+app_name: &amp;ldquo;lemon_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure quebec-task-1 is present
+ansible.builtin.file:
+path: /opt/lemon/quebec-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template quebec-task-1 config
+ansible.builtin.template:
+src: templates/quebec-task-1.j2
+dest: /etc/lemon/quebec-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;name: restart lemon service
+ansible.builtin.service:
+name: lemon
+state: restarted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.&lt;/p&gt;</description></item><item><title>Lima Apple</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/lima-apple/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/lima-apple/</guid><description>&lt;h1 id="play-lima---setup"&gt;Play: Lima - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: false
+vars:
+app_name: &amp;ldquo;lima_app&amp;rdquo;
+retry_count: 5&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure kilo-task-1 is present
+ansible.builtin.file:
+path: /opt/lima/kilo-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template kilo-task-1 config
+ansible.builtin.template:
+src: templates/kilo-task-1.j2
+dest: /etc/lima/kilo-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi"&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure grape-task-2 is present
+ansible.builtin.file:
+path: /opt/lima/grape-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template grape-task-2 config
+ansible.builtin.template:
+src: templates/grape-task-2.j2
+dest: /etc/lima/grape-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa"&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;</description></item><item><title>Lima Bravo Alpha</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/lima-bravo-alpha/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/lima-bravo-alpha/</guid><description>&lt;h1 id="play-lima---setup"&gt;Play: Lima - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: true
+vars:
+app_name: &amp;ldquo;lima_app&amp;rdquo;
+retry_count: 4&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure lima-task-1 is present
+ansible.builtin.file:
+path: /opt/lima/lima-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template lima-task-1 config
+ansible.builtin.template:
+src: templates/lima-task-1.j2
+dest: /etc/lima/lima-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure hotel-task-2 is present
+ansible.builtin.file:
+path: /opt/lima/hotel-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Lima Elder</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/lima-elder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/lima-elder/</guid><description>&lt;h1 id="play-lima---setup"&gt;Play: Lima - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: false
+vars:
+app_name: &amp;ldquo;lima_app&amp;rdquo;
+retry_count: 2&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure kiwi-task-1 is present
+ansible.builtin.file:
+path: /opt/lima/kiwi-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template kiwi-task-1 config
+ansible.builtin.template:
+src: templates/kiwi-task-1.j2
+dest: /etc/lima/kiwi-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris"&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure grape-task-2 is present
+ansible.builtin.file:
+path: /opt/lima/grape-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template grape-task-2 config
+ansible.builtin.template:
+src: templates/grape-task-2.j2
+dest: /etc/lima/grape-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit"&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure golf-task-3 is present
+ansible.builtin.file:
+path: /opt/lima/golf-task-3
+state: directory&lt;/p&gt;</description></item><item><title>Mango</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/mango/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/mango/</guid><description>&lt;h1 id="play-mango---setup"&gt;Play: Mango - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: false
+vars:
+app_name: &amp;ldquo;mango_app&amp;rdquo;
+retry_count: 2&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure lemon-task-1 is present
+ansible.builtin.file:
+path: /opt/mango/lemon-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template lemon-task-1 config
+ansible.builtin.template:
+src: templates/lemon-task-1.j2
+dest: /etc/mango/lemon-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum"&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure foxtrot-task-2 is present
+ansible.builtin.file:
+path: /opt/mango/foxtrot-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template foxtrot-task-2 config
+ansible.builtin.template:
+src: templates/foxtrot-task-2.j2
+dest: /etc/mango/foxtrot-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam"&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure cherry-task-3 is present
+ansible.builtin.file:
+path: /opt/mango/cherry-task-3
+state: directory&lt;/p&gt;</description></item><item><title>Mike 5412</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/mike-5412/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/mike-5412/</guid><description>&lt;h1 id="play-mike---setup"&gt;Play: Mike - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: false
+vars:
+app_name: &amp;ldquo;mike_app&amp;rdquo;
+retry_count: 5&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure elder-task-1 is present
+ansible.builtin.file:
+path: /opt/mike/elder-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template elder-task-1 config
+ansible.builtin.template:
+src: templates/elder-task-1.j2
+dest: /etc/mike/elder-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure delta-task-2 is present
+ansible.builtin.file:
+path: /opt/mike/delta-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template delta-task-2 config
+ansible.builtin.template:
+src: templates/delta-task-2.j2
+dest: /etc/mike/delta-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris"&gt;Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure zulu-task-3 is present
+ansible.builtin.file:
+path: /opt/mike/zulu-task-3
+state: directory&lt;/p&gt;</description></item><item><title>Mike Cherry</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/mike-cherry/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/mike-cherry/</guid><description>&lt;h1 id="play-mike---setup"&gt;Play: Mike - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: true
+vars:
+app_name: &amp;ldquo;mike_app&amp;rdquo;
+retry_count: 5&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure grape-task-1 is present
+ansible.builtin.file:
+path: /opt/mike/grape-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template grape-task-1 config
+ansible.builtin.template:
+src: templates/grape-task-1.j2
+dest: /etc/mike/grape-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi"&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure bravo-task-2 is present
+ansible.builtin.file:
+path: /opt/mike/bravo-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Mike Fig</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/mike-fig/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/mike-fig/</guid><description>&lt;h1 id="play-mike---setup"&gt;Play: Mike - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: false
+vars:
+app_name: &amp;ldquo;mike_app&amp;rdquo;
+retry_count: 2&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure charlie-task-1 is present
+ansible.builtin.file:
+path: /opt/mike/charlie-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template charlie-task-1 config
+ansible.builtin.template:
+src: templates/charlie-task-1.j2
+dest: /etc/mike/charlie-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum"&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure bravo-task-2 is present
+ansible.builtin.file:
+path: /opt/mike/bravo-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template bravo-task-2 config
+ansible.builtin.template:
+src: templates/bravo-task-2.j2
+dest: /etc/mike/bravo-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure apple-task-3 is present
+ansible.builtin.file:
+path: /opt/mike/apple-task-3
+state: directory&lt;/p&gt;</description></item><item><title>Mike Foxtrot Charlie</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/mike-foxtrot-charlie/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/mike-foxtrot-charlie/</guid><description>&lt;h1 id="play-mike---setup"&gt;Play: Mike - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: false
+vars:
+app_name: &amp;ldquo;mike_app&amp;rdquo;
+retry_count: 2&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure whiskey-task-1 is present
+ansible.builtin.file:
+path: /opt/mike/whiskey-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template whiskey-task-1 config
+ansible.builtin.template:
+src: templates/whiskey-task-1.j2
+dest: /etc/mike/whiskey-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum"&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;name: restart mike service
+ansible.builtin.service:
+name: mike
+state: restarted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.&lt;/p&gt;</description></item><item><title>Mike Mango Romeo</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/mike-mango-romeo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/mike-mango-romeo/</guid><description>&lt;h1 id="play-mike---setup"&gt;Play: Mike - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: true
+vars:
+app_name: &amp;ldquo;mike_app&amp;rdquo;
+retry_count: 1&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure lima-task-1 is present
+ansible.builtin.file:
+path: /opt/mike/lima-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template lima-task-1 config
+ansible.builtin.template:
+src: templates/lima-task-1.j2
+dest: /etc/mike/lima-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi"&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure grape-task-2 is present
+ansible.builtin.file:
+path: /opt/mike/grape-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Mike</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/mike/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/mike/</guid><description>&lt;h1 id="play-mike---setup"&gt;Play: Mike - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: true
+vars:
+app_name: &amp;ldquo;mike_app&amp;rdquo;
+retry_count: 1&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure yankee-task-1 is present
+ansible.builtin.file:
+path: /opt/mike/yankee-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template yankee-task-1 config
+ansible.builtin.template:
+src: templates/yankee-task-1.j2
+dest: /etc/mike/yankee-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure grape-task-2 is present
+ansible.builtin.file:
+path: /opt/mike/grape-task-2
+state: directory&lt;/p&gt;</description></item><item><title>November Bravo</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/november-bravo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/november-bravo/</guid><description>&lt;h1 id="play-november---setup"&gt;Play: November - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: true
+vars:
+app_name: &amp;ldquo;november_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure alpha-task-1 is present
+ansible.builtin.file:
+path: /opt/november/alpha-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template alpha-task-1 config
+ansible.builtin.template:
+src: templates/alpha-task-1.j2
+dest: /etc/november/alpha-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure november-task-2 is present
+ansible.builtin.file:
+path: /opt/november/november-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template november-task-2 config
+ansible.builtin.template:
+src: templates/november-task-2.j2
+dest: /etc/november/november-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item><item><title>November Lemon Foxtrot</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/november-lemon-foxtrot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/november-lemon-foxtrot/</guid><description>&lt;h1 id="play-november---setup"&gt;Play: November - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: false
+vars:
+app_name: &amp;ldquo;november_app&amp;rdquo;
+retry_count: 4&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure november-task-1 is present
+ansible.builtin.file:
+path: /opt/november/november-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template november-task-1 config
+ansible.builtin.template:
+src: templates/november-task-1.j2
+dest: /etc/november/november-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi"&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure bravo-task-2 is present
+ansible.builtin.file:
+path: /opt/november/bravo-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template bravo-task-2 config
+ansible.builtin.template:
+src: templates/bravo-task-2.j2
+dest: /etc/november/bravo-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure cherry-task-3 is present
+ansible.builtin.file:
+path: /opt/november/cherry-task-3
+state: directory&lt;/p&gt;</description></item><item><title>November Mike</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/november-mike/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/november-mike/</guid><description>&lt;h1 id="play-november---setup"&gt;Play: November - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: false
+vars:
+app_name: &amp;ldquo;november_app&amp;rdquo;
+retry_count: 2&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure november-task-1 is present
+ansible.builtin.file:
+path: /opt/november/november-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template november-task-1 config
+ansible.builtin.template:
+src: templates/november-task-1.j2
+dest: /etc/november/november-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure uniform-task-2 is present
+ansible.builtin.file:
+path: /opt/november/uniform-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template uniform-task-2 config
+ansible.builtin.template:
+src: templates/uniform-task-2.j2
+dest: /etc/november/uniform-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit"&gt;Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure grape-task-3 is present
+ansible.builtin.file:
+path: /opt/november/grape-task-3
+state: directory&lt;/p&gt;</description></item><item><title>Oscar Sierra</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/oscar-sierra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/oscar-sierra/</guid><description>&lt;h1 id="play-oscar---setup"&gt;Play: Oscar - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: false
+vars:
+app_name: &amp;ldquo;oscar_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure romeo-task-1 is present
+ansible.builtin.file:
+path: /opt/oscar/romeo-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template romeo-task-1 config
+ansible.builtin.template:
+src: templates/romeo-task-1.j2
+dest: /etc/oscar/romeo-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit"&gt;Excepteur sint occaecat cupidatat non proident, sunt in culpa. Excepteur sint occaecat cupidatat non proident, sunt in culpa. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure golf-task-2 is present
+ansible.builtin.file:
+path: /opt/oscar/golf-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Papa</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/papa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/papa/</guid><description>&lt;h1 id="play-papa---setup"&gt;Play: Papa - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: true
+vars:
+app_name: &amp;ldquo;papa_app&amp;rdquo;
+retry_count: 4&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure kilo-task-1 is present
+ansible.builtin.file:
+path: /opt/papa/kilo-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template kilo-task-1 config
+ansible.builtin.template:
+src: templates/kilo-task-1.j2
+dest: /etc/papa/kilo-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus"&gt;Excepteur sint occaecat cupidatat non proident, sunt in culpa. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure hazel-task-2 is present
+ansible.builtin.file:
+path: /opt/papa/hazel-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template hazel-task-2 config
+ansible.builtin.template:
+src: templates/hazel-task-2.j2
+dest: /etc/papa/hazel-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item><item><title>Quebec</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/quebec/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/quebec/</guid><description>&lt;h1 id="play-quebec---setup"&gt;Play: Quebec - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: false
+vars:
+app_name: &amp;ldquo;quebec_app&amp;rdquo;
+retry_count: 1&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure echo-task-1 is present
+ansible.builtin.file:
+path: /opt/quebec/echo-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template echo-task-1 config
+ansible.builtin.template:
+src: templates/echo-task-1.j2
+dest: /etc/quebec/echo-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;name: restart quebec service
+ansible.builtin.service:
+name: quebec
+state: restarted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Excepteur sint occaecat cupidatat non proident, sunt in culpa.&lt;/p&gt;</description></item><item><title>Romeo Echo</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/romeo-echo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/romeo-echo/</guid><description>&lt;h1 id="play-romeo---setup"&gt;Play: Romeo - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: true
+vars:
+app_name: &amp;ldquo;romeo_app&amp;rdquo;
+retry_count: 5&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure india-task-1 is present
+ansible.builtin.file:
+path: /opt/romeo/india-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template india-task-1 config
+ansible.builtin.template:
+src: templates/india-task-1.j2
+dest: /etc/romeo/india-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus"&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;name: restart romeo service
+ansible.builtin.service:
+name: romeo
+state: restarted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.&lt;/p&gt;</description></item><item><title>Romeo Foxtrot 4659</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/romeo-foxtrot-4659/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/romeo-foxtrot-4659/</guid><description>&lt;h1 id="play-romeo---setup"&gt;Play: Romeo - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: false
+vars:
+app_name: &amp;ldquo;romeo_app&amp;rdquo;
+retry_count: 2&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure delta-task-1 is present
+ansible.builtin.file:
+path: /opt/romeo/delta-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template delta-task-1 config
+ansible.builtin.template:
+src: templates/delta-task-1.j2
+dest: /etc/romeo/delta-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;name: restart romeo service
+ansible.builtin.service:
+name: romeo
+state: restarted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;</description></item><item><title>Romeo Foxtrot</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/romeo-foxtrot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/romeo-foxtrot/</guid><description>&lt;h1 id="play-romeo---setup"&gt;Play: Romeo - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: true
+vars:
+app_name: &amp;ldquo;romeo_app&amp;rdquo;
+retry_count: 5&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure lemon-task-1 is present
+ansible.builtin.file:
+path: /opt/romeo/lemon-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template lemon-task-1 config
+ansible.builtin.template:
+src: templates/lemon-task-1.j2
+dest: /etc/romeo/lemon-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure india-task-2 is present
+ansible.builtin.file:
+path: /opt/romeo/india-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template india-task-2 config
+ansible.builtin.template:
+src: templates/india-task-2.j2
+dest: /etc/romeo/india-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description-1"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus-integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam"&gt;Excepteur sint occaecat cupidatat non proident, sunt in culpa. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure zulu-task-3 is present
+ansible.builtin.file:
+path: /opt/romeo/zulu-task-3
+state: directory&lt;/p&gt;</description></item><item><title>Romeo Lemon Hotel</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/romeo-lemon-hotel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/romeo-lemon-hotel/</guid><description>&lt;h1 id="play-romeo---setup"&gt;Play: Romeo - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: true
+vars:
+app_name: &amp;ldquo;romeo_app&amp;rdquo;
+retry_count: 2&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure quebec-task-1 is present
+ansible.builtin.file:
+path: /opt/romeo/quebec-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template quebec-task-1 config
+ansible.builtin.template:
+src: templates/quebec-task-1.j2
+dest: /etc/romeo/quebec-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris"&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure cherry-task-2 is present
+ansible.builtin.file:
+path: /opt/romeo/cherry-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Romeo Xray Quebec</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/romeo-xray-quebec/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/romeo-xray-quebec/</guid><description>&lt;h1 id="play-romeo---setup"&gt;Play: Romeo - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: false
+vars:
+app_name: &amp;ldquo;romeo_app&amp;rdquo;
+retry_count: 4&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure apple-task-1 is present
+ansible.builtin.file:
+path: /opt/romeo/apple-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template apple-task-1 config
+ansible.builtin.template:
+src: templates/apple-task-1.j2
+dest: /etc/romeo/apple-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit"&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure whiskey-task-2 is present
+ansible.builtin.file:
+path: /opt/romeo/whiskey-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template whiskey-task-2 config
+ansible.builtin.template:
+src: templates/whiskey-task-2.j2
+dest: /etc/romeo/whiskey-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item><item><title>Sierra Hazel</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/sierra-hazel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/sierra-hazel/</guid><description>&lt;h1 id="play-sierra---setup"&gt;Play: Sierra - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: false
+vars:
+app_name: &amp;ldquo;sierra_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure echo-task-1 is present
+ansible.builtin.file:
+path: /opt/sierra/echo-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template echo-task-1 config
+ansible.builtin.template:
+src: templates/echo-task-1.j2
+dest: /etc/sierra/echo-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi"&gt;Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure cherry-task-2 is present
+ansible.builtin.file:
+path: /opt/sierra/cherry-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Sierra Uniform Zulu</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/sierra-uniform-zulu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/sierra-uniform-zulu/</guid><description>&lt;h1 id="play-sierra---setup"&gt;Play: Sierra - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: false
+vars:
+app_name: &amp;ldquo;sierra_app&amp;rdquo;
+retry_count: 4&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure echo-task-1 is present
+ansible.builtin.file:
+path: /opt/sierra/echo-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template echo-task-1 config
+ansible.builtin.template:
+src: templates/echo-task-1.j2
+dest: /etc/sierra/echo-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure papa-task-2 is present
+ansible.builtin.file:
+path: /opt/sierra/papa-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Sierra</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/sierra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/sierra/</guid><description>&lt;h1 id="play-sierra---setup"&gt;Play: Sierra - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: false
+vars:
+app_name: &amp;ldquo;sierra_app&amp;rdquo;
+retry_count: 1&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure bravo-task-1 is present
+ansible.builtin.file:
+path: /opt/sierra/bravo-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template bravo-task-1 config
+ansible.builtin.template:
+src: templates/bravo-task-1.j2
+dest: /etc/sierra/bravo-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris"&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure alpha-task-2 is present
+ansible.builtin.file:
+path: /opt/sierra/alpha-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Tango Kiwi Banana</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/tango-kiwi-banana/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/tango-kiwi-banana/</guid><description>&lt;h1 id="play-tango---setup"&gt;Play: Tango - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: false
+vars:
+app_name: &amp;ldquo;tango_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure lemon-task-1 is present
+ansible.builtin.file:
+path: /opt/tango/lemon-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template lemon-task-1 config
+ansible.builtin.template:
+src: templates/lemon-task-1.j2
+dest: /etc/tango/lemon-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure quebec-task-2 is present
+ansible.builtin.file:
+path: /opt/tango/quebec-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Tango Romeo Juliet</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/tango-romeo-juliet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/tango-romeo-juliet/</guid><description>&lt;h1 id="play-tango---setup"&gt;Play: Tango - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: true
+vars:
+app_name: &amp;ldquo;tango_app&amp;rdquo;
+retry_count: 2&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure juliet-task-1 is present
+ansible.builtin.file:
+path: /opt/tango/juliet-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template juliet-task-1 config
+ansible.builtin.template:
+src: templates/juliet-task-1.j2
+dest: /etc/tango/juliet-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam"&gt;Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure november-task-2 is present
+ansible.builtin.file:
+path: /opt/tango/november-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Uniform 9043</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/uniform-9043/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/uniform-9043/</guid><description>&lt;h1 id="play-uniform---setup"&gt;Play: Uniform - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: false
+vars:
+app_name: &amp;ldquo;uniform_app&amp;rdquo;
+retry_count: 5&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure echo-task-1 is present
+ansible.builtin.file:
+path: /opt/uniform/echo-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template echo-task-1 config
+ansible.builtin.template:
+src: templates/echo-task-1.j2
+dest: /etc/uniform/echo-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure jasmine-task-2 is present
+ansible.builtin.file:
+path: /opt/uniform/jasmine-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Uniform 9647</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/uniform-9647/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/uniform-9647/</guid><description>&lt;h1 id="play-uniform---setup"&gt;Play: Uniform - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: false
+vars:
+app_name: &amp;ldquo;uniform_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure banana-task-1 is present
+ansible.builtin.file:
+path: /opt/uniform/banana-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template banana-task-1 config
+ansible.builtin.template:
+src: templates/banana-task-1.j2
+dest: /etc/uniform/banana-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;name: restart uniform service
+ansible.builtin.service:
+name: uniform
+state: restarted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.&lt;/p&gt;</description></item><item><title>Uniform Banana</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/uniform-banana/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/uniform-banana/</guid><description>&lt;h1 id="play-uniform---setup"&gt;Play: Uniform - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: true
+vars:
+app_name: &amp;ldquo;uniform_app&amp;rdquo;
+retry_count: 4&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure romeo-task-1 is present
+ansible.builtin.file:
+path: /opt/uniform/romeo-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template romeo-task-1 config
+ansible.builtin.template:
+src: templates/romeo-task-1.j2
+dest: /etc/uniform/romeo-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris"&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure mike-task-2 is present
+ansible.builtin.file:
+path: /opt/uniform/mike-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Uniform Elder</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/uniform-elder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/uniform-elder/</guid><description>&lt;h1 id="play-uniform---setup"&gt;Play: Uniform - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: true
+vars:
+app_name: &amp;ldquo;uniform_app&amp;rdquo;
+retry_count: 4&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure elder-task-1 is present
+ansible.builtin.file:
+path: /opt/uniform/elder-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template elder-task-1 config
+ansible.builtin.template:
+src: templates/elder-task-1.j2
+dest: /etc/uniform/elder-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris"&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;name: restart uniform service
+ansible.builtin.service:
+name: uniform
+state: restarted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.&lt;/p&gt;</description></item><item><title>Uniform Jasmine Lima</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/uniform-jasmine-lima/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/uniform-jasmine-lima/</guid><description>&lt;h1 id="play-uniform---setup"&gt;Play: Uniform - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: false
+vars:
+app_name: &amp;ldquo;uniform_app&amp;rdquo;
+retry_count: 5&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure date-task-1 is present
+ansible.builtin.file:
+path: /opt/uniform/date-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template date-task-1 config
+ansible.builtin.template:
+src: templates/date-task-1.j2
+dest: /etc/uniform/date-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;name: restart uniform service
+ansible.builtin.service:
+name: uniform
+state: restarted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Excepteur sint occaecat cupidatat non proident, sunt in culpa.&lt;/p&gt;</description></item><item><title>Uniform</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/uniform/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/uniform/</guid><description>&lt;h1 id="play-uniform---setup"&gt;Play: Uniform - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: false
+vars:
+app_name: &amp;ldquo;uniform_app&amp;rdquo;
+retry_count: 5&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure yankee-task-1 is present
+ansible.builtin.file:
+path: /opt/uniform/yankee-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template yankee-task-1 config
+ansible.builtin.template:
+src: templates/yankee-task-1.j2
+dest: /etc/uniform/yankee-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum"&gt;Excepteur sint occaecat cupidatat non proident, sunt in culpa. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure yankee-task-2 is present
+ansible.builtin.file:
+path: /opt/uniform/yankee-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template yankee-task-2 config
+ansible.builtin.template:
+src: templates/yankee-task-2.j2
+dest: /etc/uniform/yankee-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item><item><title>Victor Hazel Iris</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/victor-hazel-iris/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/victor-hazel-iris/</guid><description>&lt;h1 id="play-victor---setup"&gt;Play: Victor - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: false
+vars:
+app_name: &amp;ldquo;victor_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure foxtrot-task-1 is present
+ansible.builtin.file:
+path: /opt/victor/foxtrot-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template foxtrot-task-1 config
+ansible.builtin.template:
+src: templates/foxtrot-task-1.j2
+dest: /etc/victor/foxtrot-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi"&gt;Excepteur sint occaecat cupidatat non proident, sunt in culpa. Excepteur sint occaecat cupidatat non proident, sunt in culpa. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure whiskey-task-2 is present
+ansible.builtin.file:
+path: /opt/victor/whiskey-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Victor Hazel</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/victor-hazel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/victor-hazel/</guid><description>&lt;h1 id="play-victor---setup"&gt;Play: Victor - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: false
+vars:
+app_name: &amp;ldquo;victor_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure lima-task-1 is present
+ansible.builtin.file:
+path: /opt/victor/lima-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template lima-task-1 config
+ansible.builtin.template:
+src: templates/lima-task-1.j2
+dest: /etc/victor/lima-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-integer-nec-odio-praesent-libero-sed-cursus-ante-dapibus-diam"&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure papa-task-2 is present
+ansible.builtin.file:
+path: /opt/victor/papa-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Victor Lemon</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/victor-lemon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/victor-lemon/</guid><description>&lt;h1 id="play-victor---setup"&gt;Play: Victor - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: false
+vars:
+app_name: &amp;ldquo;victor_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure xray-task-1 is present
+ansible.builtin.file:
+path: /opt/victor/xray-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template xray-task-1 config
+ansible.builtin.template:
+src: templates/xray-task-1.j2
+dest: /etc/victor/xray-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi"&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Excepteur sint occaecat cupidatat non proident, sunt in culpa. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure kiwi-task-2 is present
+ansible.builtin.file:
+path: /opt/victor/kiwi-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Victor Uniform</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/victor-uniform/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/victor-uniform/</guid><description>&lt;h1 id="play-victor---setup"&gt;Play: Victor - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: true
+vars:
+app_name: &amp;ldquo;victor_app&amp;rdquo;
+retry_count: 2&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure mike-task-1 is present
+ansible.builtin.file:
+path: /opt/victor/mike-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template mike-task-1 config
+ansible.builtin.template:
+src: templates/mike-task-1.j2
+dest: /etc/victor/mike-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-curabitur-non-nulla-sit-amet-nisl-tempus-convallis-quis-ac-lectus"&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure grape-task-2 is present
+ansible.builtin.file:
+path: /opt/victor/grape-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Victor</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/victor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/victor/</guid><description>&lt;h1 id="play-victor---setup"&gt;Play: Victor - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: false
+vars:
+app_name: &amp;ldquo;victor_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure november-task-1 is present
+ansible.builtin.file:
+path: /opt/victor/november-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template november-task-1 config
+ansible.builtin.template:
+src: templates/november-task-1.j2
+dest: /etc/victor/november-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;name: restart victor service
+ansible.builtin.service:
+name: victor
+state: restarted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;</description></item><item><title>Whiskey Alpha Romeo</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/whiskey-alpha-romeo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/whiskey-alpha-romeo/</guid><description>&lt;h1 id="play-whiskey---setup"&gt;Play: Whiskey - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: false
+vars:
+app_name: &amp;ldquo;whiskey_app&amp;rdquo;
+retry_count: 2&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure golf-task-1 is present
+ansible.builtin.file:
+path: /opt/whiskey/golf-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template golf-task-1 config
+ansible.builtin.template:
+src: templates/golf-task-1.j2
+dest: /etc/whiskey/golf-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum"&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure xray-task-2 is present
+ansible.builtin.file:
+path: /opt/whiskey/xray-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Whiskey</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/whiskey/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/whiskey/</guid><description>&lt;h1 id="play-whiskey---setup"&gt;Play: Whiskey - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: all
+become: true
+vars:
+app_name: &amp;ldquo;whiskey_app&amp;rdquo;
+retry_count: 5&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure papa-task-1 is present
+ansible.builtin.file:
+path: /opt/whiskey/papa-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template papa-task-1 config
+ansible.builtin.template:
+src: templates/papa-task-1.j2
+dest: /etc/whiskey/papa-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa"&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa. Excepteur sint occaecat cupidatat non proident, sunt in culpa.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure jasmine-task-2 is present
+ansible.builtin.file:
+path: /opt/whiskey/jasmine-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Yankee Cherry Grape</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/yankee-cherry-grape/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/yankee-cherry-grape/</guid><description>&lt;h1 id="play-yankee---setup"&gt;Play: Yankee - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: false
+vars:
+app_name: &amp;ldquo;yankee_app&amp;rdquo;
+retry_count: 1&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure quebec-task-1 is present
+ansible.builtin.file:
+path: /opt/yankee/quebec-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template quebec-task-1 config
+ansible.builtin.template:
+src: templates/quebec-task-1.j2
+dest: /etc/yankee/quebec-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris"&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.&lt;/h1&gt;
+&lt;p&gt;handlers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;name: restart yankee service
+ansible.builtin.service:
+name: yankee
+state: restarted&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa. Excepteur sint occaecat cupidatat non proident, sunt in culpa.&lt;/p&gt;</description></item><item><title>Yankee Golf Juliet</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/yankee-golf-juliet/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/yankee-golf-juliet/</guid><description>&lt;h1 id="play-yankee---setup"&gt;Play: Yankee - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: loadbalancers
+become: false
+vars:
+app_name: &amp;ldquo;yankee_app&amp;rdquo;
+retry_count: 4&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure date-task-1 is present
+ansible.builtin.file:
+path: /opt/yankee/date-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template date-task-1 config
+ansible.builtin.template:
+src: templates/date-task-1.j2
+dest: /etc/yankee/date-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-excepteur-sint-occaecat-cupidatat-non-proident-sunt-in-culpa-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure quebec-task-2 is present
+ansible.builtin.file:
+path: /opt/yankee/quebec-task-2
+state: directory&lt;/p&gt;</description></item><item><title>Zulu 4526</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/zulu-4526/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/zulu-4526/</guid><description>&lt;h1 id="play-zulu---setup"&gt;Play: Zulu - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: db
+become: false
+vars:
+app_name: &amp;ldquo;zulu_app&amp;rdquo;
+retry_count: 3&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure hazel-task-1 is present
+ansible.builtin.file:
+path: /opt/zulu/hazel-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template hazel-task-1 config
+ansible.builtin.template:
+src: templates/hazel-task-1.j2
+dest: /etc/zulu/hazel-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure quebec-task-2 is present
+ansible.builtin.file:
+path: /opt/zulu/quebec-task-2
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template quebec-task-2 config
+ansible.builtin.template:
+src: templates/quebec-task-2.j2
+dest: /etc/zulu/quebec-task-2.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description></item><item><title>Zulu</title><link>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/zulu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/kiwi-elder/november-grape/mike-delta/golf-alpha/zulu/</guid><description>&lt;h1 id="play-zulu---setup"&gt;Play: Zulu - setup&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;hosts: webservers
+become: false
+vars:
+app_name: &amp;ldquo;zulu_app&amp;rdquo;
+retry_count: 4&lt;/p&gt;
+&lt;p&gt;tasks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure charlie-task-1 is present
+ansible.builtin.file:
+path: /opt/zulu/charlie-task-1
+state: directory&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;name: Template charlie-task-1 config
+ansible.builtin.template:
+src: templates/charlie-task-1.j2
+dest: /etc/zulu/charlie-task-1.conf
+mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="description"&gt;Description:&lt;/h1&gt;
+&lt;h1 id="ut-enim-ad-minim-veniam-quis-nostrud-exercitation-ullamco-laboris-lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sed-do-eiusmod-tempor-incididunt-ut-labore-et-dolore-magna-aliqua"&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;name: Ensure cherry-task-2 is present
+ansible.builtin.file:
+path: /opt/zulu/cherry-task-2
+state: directory&lt;/p&gt;</description></item></channel></rss>

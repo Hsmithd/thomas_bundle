@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lemon Lemon on My New Hugo Site</title>
+    <title>Lemon Lemon on Thomas Bundle Docs</title>
     <link>http://localhost:1313/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/</link>
-    <description>Recent content in Lemon Lemon on My New Hugo Site</description>
+    <description>Recent content in Lemon Lemon on Thomas Bundle Docs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/index.xml" rel="self" type="application/rss+xml" />
@@ -12,14 +12,7 @@
       <link>http://localhost:1313/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/delta/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/delta/</guid>
-      <description>&lt;h1 id=&#34;play-delta---setup&#34;&gt;Play: Delta - setup&lt;a class=&#34;anchor&#34; href=&#34;#play-delta---setup&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;hosts: all&#xA;become: true&#xA;vars:&#xA;app_name: &amp;ldquo;delta_app&amp;rdquo;&#xA;retry_count: 3&lt;/p&gt;&#xA;&lt;p&gt;tasks:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;name: Ensure papa-task-1 is present&#xA;ansible.builtin.file:&#xA;path: /opt/delta/papa-task-1&#xA;state: directory&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;name: Template papa-task-1 config&#xA;ansible.builtin.template:&#xA;src: templates/papa-task-1.j2&#xA;dest: /etc/delta/papa-task-1.conf&#xA;mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;description&#34;&gt;Description:&lt;a class=&#34;anchor&#34; href=&#34;#description&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;h1 id=&#34;praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum&#34;&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.&lt;a class=&#34;anchor&#34; href=&#34;#praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;name: Ensure tango-task-2 is present&#xA;ansible.builtin.file:&#xA;path: /opt/delta/tango-task-2&#xA;state: directory&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;name: Template tango-task-2 config&#xA;ansible.builtin.template:&#xA;src: templates/tango-task-2.j2&#xA;dest: /etc/delta/tango-task-2.conf&#xA;mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/readme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/doc_sample/whiskey-banana/sierra-hotel/lemon-lemon/readme/</guid>
-      <description>&lt;h1 id=&#34;lemon-lemon&#34;&gt;lemon-lemon&lt;a class=&#34;anchor&#34; href=&#34;#lemon-lemon&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;Directory created for testing.&#xA;Depth: 4&lt;/p&gt;&#xA;&lt;p&gt;Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;play-delta---setup&#34;&gt;Play: Delta - setup&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;hosts: all&#xA;become: true&#xA;vars:&#xA;app_name: &amp;ldquo;delta_app&amp;rdquo;&#xA;retry_count: 3&lt;/p&gt;&#xA;&lt;p&gt;tasks:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;name: Ensure papa-task-1 is present&#xA;ansible.builtin.file:&#xA;path: /opt/delta/papa-task-1&#xA;state: directory&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;name: Template papa-task-1 config&#xA;ansible.builtin.template:&#xA;src: templates/papa-task-1.j2&#xA;dest: /etc/delta/papa-task-1.conf&#xA;mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;description&#34;&gt;Description:&lt;/h1&gt;&#xA;&lt;h1 id=&#34;praesent-sapien-massa-convallis-a-pellentesque-nec-egestas-non-nisi-duis-aute-irure-dolor-in-reprehenderit-in-voluptate-velit-esse-cillum&#34;&gt;Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;name: Ensure tango-task-2 is present&#xA;ansible.builtin.file:&#xA;path: /opt/delta/tango-task-2&#xA;state: directory&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;name: Template tango-task-2 config&#xA;ansible.builtin.template:&#xA;src: templates/tango-task-2.j2&#xA;dest: /etc/delta/tango-task-2.conf&#xA;mode: &amp;lsquo;0644&amp;rsquo;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
